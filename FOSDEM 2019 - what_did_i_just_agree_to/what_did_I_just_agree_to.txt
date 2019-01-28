@@ -1,0 +1,134 @@
+% What did I just agree to? A quick trip through the un-"popular" open source licenses.
+% Marc Jones
+% February 2, 2019
+
+#The "Popular Licenses"
+
+OSI-approved licenses that are popular, widely used, or have strong communities
+
+## "Popular Licenses"
+
+- Apache License 2.0
+- BSD 3-Clause "New" or "Revised" license
+- BSD 2-Clause "Simplified" or "FreeBSD" license
+- GNU General Public License (GPL)
+- GNU Library or "Lesser" General Public License (LGPL)
+- MIT license
+- Mozilla Public License 2.0
+- Common Development and Distribution License
+- Eclipse Public License
+
+# Categories of Licenses
+
+OSI Classified the licenses into several categories
+
+
+## Categories
+
+- Licenses that are "popular and widely-used or with strong communities" 
+- International licenses
+- Special purpose licenses
+- Other/Miscellaneous licenses
+- Licenses that are redundant with more popular licenses
+- Non-reusable licenses
+- Superseded licenses
+- Licenses that have been voluntarily retired
+- Uncategorized Licenses
+
+# Contract Language
+
+- "Some AWS Content and Third-Party Content may be provided to you under a separate license, such as the Apache License, Version 2.0, or other *open source license.* In the event of a conflict between this Agreement and any separate license, the *separate license will prevail* with respect to the AWS Content or Third-Party Content that is the subject of such separate license." [AWS Customer Agreement, Nov. 1, 2018](https://aws.amazon.com/agreement/)
+
+# What do these separate licenses say?
+
+# Kind of the Material
+Only applies to Software
+0BSD
+ISC
+
+# Rights Granted
+Many  licenses do not grant all of the copyright rights
+Some of the licenses only grant a subset of rights applicable to software
+FAIR only grants “usage rights”
+Patent rights sometimes are only the right to use
+Rights sometimes depend on if you are the maintainer. See LPPL for how the “current maintainer” is treated as having super user rights.
+
+# Attribution Requirements
+GPG signed text - AAL
+Display Attribution Information - AAL
+You must mark each file as changed licensed under Apache-2.0
+You must display attribution information under Apache 2.0
+
+#Scope of Covered Material
+Only Software
+0BSD
+Applies to Works of Authorship
+Apache
+AFL (plus documentation)
+Applies to source code, documentation and object code
+APL
+Includes scripts (build, installation, etc…)
+APL
+GPL
+AGPL
+
+# Preserving Notices
+Framework - Keep in place pretty much all kinds of marks anywhere in the code base
+# Legal Notifications
+Describe the limitations on your license being offered - MPL derived software?
+Motosoto - If it is impossible for you to comply with any of the terms of this License with respect to some or all of the Licensed Product due to statute, judicial order, or regulation, then you must (i) comply with the terms of this License to the maximum extent possible, (ii) cite the statute or regulation that prohibits you from adhering to the License, and (iii) describe the limitations and the code they affect. Such description must be included in the LEGAL file described in Section 4(d), and must be included with all distributions of the Source Code. Except to the extent prohibited by statute or regulation, such description must be sufficiently detailed for a recipient of ordinary skill at computer programming to be able to understand it.
+
+# Creating Derivative Licenses
+Weirdly one license prevents you from calling your new license unless it is approved by OSI
+Most licenses name the license steward.
+May licenses allow you to automatically use new versions of the license
+Some licenses don't name the license steward and the licence steward is in effect the originally copyright holder, which allows them to change the terms unilaterally?
+LPPL has concept of current Maintainer which allows the current maintainer to distribute with few restrictions including in violation of the license terms.
+Misc
+If you modify the AFL you agree not call something open source unless it is 
+Any one who distributes CECILL software promises to get patent transferees to agree to the license
+
+
+
+# Network Copyleft
+AFL-3.0
+AGPL-3.0
+APL-1.0 (not governed by the license, but must display notice to “any party using” the work)
+APSL
+EU Datagrid gives a license to EUDatagrid anytime you publish modifications not accompanied with a written agreement.
+
+# Termination
+Any patent action against Apple terminates all of the APSL
+
+# Warranty
+Warranties vary widely
+Frequently does not disclaim include warranty against infringement
+Sometimes conditions license on warranty that doesn't have carve outs for limitations
+Frequently makes representations about the copyrights to code contributions
+Many licenses do not disclaim specific implied warranties
+FAIR
+Liability
+Often liability does not exclude willful actions or actions resulting in death
+
+# Indemnification
+Indemnify other contributors are frequent requirement for distribution or giving a warranty of your own
+
+
+# Limitation on services
+Framework limits how much you can charge for related services
+
+# Choice of Law & Venue
+Named jurisdiction
+Modifiable
+Place of business
+
+# Statute of Limits
+1 year from cause of action being known
+
+# Conclusions
+
+* Huge variety of terms!
+* Contains variations on a lot the things transactional lawyers nitpick about
+* There is a good chance your licensing expiriment has been run
+* Consider moving from accepting all "open source licenses" to a defined subset
+* Its hard to make generalizations about open source software
