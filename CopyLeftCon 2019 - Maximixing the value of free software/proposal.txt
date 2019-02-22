@@ -1,0 +1,31 @@
+Description:
+There have been several high profile efforts recently (Common Clause and the Server Side Public License) to try to improve the business situation for open source companies. Unfortunately these efforts seem to reject the free software ethos. This presentation will review common business models that that maximize the advantages of *existing* copyleft licenses while being faithful to free software.
+
+Detialed Abstract:
+We have seen several recent attempts to patch or alter free software licenses so that free software companies can stop other large companies from free riding on them. Personally it seems to me that is premature without companies first trying to maximize the leverage that copyleft licenses already give them.
+
+The intention of this presentation is not to present a authoritative answer to how best deploy copyleft in business but to put forward the presenter's theory on what business models appear to work best and why many business and organizations fail to see the real advantage of copyleft licenses when compared to proprietary and permissive licenses. 
+
+Copyleft's primary advantage is forcing competitors to compete in a market place where it is unprofitable to build a business focused on charging for services rendered in the past (i.e. the past work done to write the open source code); to succeed in businesses need to identify and monetize services for the continued performance of services such as improving the code base, support services, warranties, or related services such as hosting. The most profitable businesses will be developed around code bases where it requires a high degree of skill or domain specific knowledge to provide those services.
+
+The challenge is that business need to think carefully about what value their business adds rather than simply just selling software. In this theory the distribution of pre-existing code at no cost isn't monetized directly but can have other advantages such as serving as advertising, or forcing competitors to change their business strategy by commoditizing the code itself. Organizations that try to monetize the existing code base will always be in danger of losing in in the marketplace to companies that recognize the code base for any open source project can be commoditized.
+
+We will briefly review the reasons companies have recently complained that existing copyleft licenses such as GPL and AGPL are insufficient for create successful business.
+* Redis Database license use of Common Clause
+* DGraph change from AGPL to Apache with Common Clause to Apache
+* MongoDB's Switch from AGPL to Server Side Public License (my assumption being that by February SSPL will generally be regarded as not likely to be approved as a Open Source license by OSI; but I guess who knows).
+
+We will review the business models of the companies behind these 3 companies and their stated motivations for changing away from copyleft licenses.
+
+Then we will examine what business models organizations that the presenter perceives as examples of successful uses of copyleft licenses:
+* Linux Project
+* MariaDB &. MySQL
+* LibreOffice (yes, I know OpenOffice is essentially a failed project and I will address that)
+* NextCloud (yes, I know OwnCloud is perceived as failing and I will address that)
+* RedHat
+
+What are the business models that the companies behind these use. What problems have they encountered and what role has Copyleft played in them.
+
+The Presenter will then provide his conclusions about what business models actually work for open source licenses and which best work with copyleft licenses. Business based on providing professional services and support services are the most successful. And depending on the kind of support services being offered business will need to be comfortable with varying degrees of competition. Consumer grade software intend to be run by end users will likely attract the highest level of competition. On the other hand businesses can successfully compete by providing services to enterprise customers that need customization or significant services to tailor or scale a service to their own needs or the need of enterprise customers for warranties and support services.
+
+The Presenter will also present his recommendations on how the technical design and architecture of a project should be considered when creating a business model based on copyleft licenses. The presenters recommendations will briefly touch on the clear success of the open core business model and the selling of commercial licenses as a alternative to copyleft licenses, but will primarily focus on companies can invest in copyleft as the primary business strategy.

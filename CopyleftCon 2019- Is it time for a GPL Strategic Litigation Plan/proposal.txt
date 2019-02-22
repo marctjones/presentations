@@ -1,0 +1,18 @@
+Description:
+We now live in a world where we have seen free software and copyleft trolling and copyleft rent seeking. Commercial ligation like Ameriprise and Great Minds is here. We now have to ask the question of what impact will commercial litigation have on the interpretation of commonly used licenses? What role if any should the community take in helping to shape courts's interpretations of the licenses.
+
+Detailed Abstract:
+We have seen several examples of commercial litigation related to the interpretation of free software licenses recently take place between commercial actors. In some of those cases the court has welcomed expert opinion on the meaning of the licenses such as in some of the Versata v. AmeriPrise family of cases. In other cases such as in Great Minds v. Fedex Office & Print Servs., Inc. litigation we saw Creative Commons request to file an amicus brief denied when Creative Commons as the author the license attempted to provide guidance on the intend interpretation of the license it was the license steward of.
+
+This presents a number of questions for the free software community:
+* To what extent is the often spoken of assumption that the license stewards interpretation of the license is authoritative or at least of value realistic when it comes to a court interpreting the license?
+* What can license stewards do to make sure their intended interpretation prevails in court? Do we want the license stewards interpretation to prevail in court?
+* What body of work can be created that is accessible to litigators and judges who will be increasingly called on to interpret the licenses?
+* How well will well established community norms and practices be considered in interpreting licenses if a lawsuit interpreting the license is between two financial services companies who have no knowledge or interest in protecting the free software community?
+* What kind of court decisions would be helpful to establishing court precedent inline with community interpretation of licenses? Would any?
+* Would strategic litigation be in line with the "The Principles of Community-Oriented GPL Enforcement"
+* What gaps in copyright law need to be resolved to give greater stability and predictability to the use of free software licenses? And what kind of fact patterns would be in the best interest of the community to bring as cases? Do we need better guidance on the scope of derivative works in software? Who would that benefit? Do we need to know if there is any third party beneficiary standing under open source licenses under any circumstances? If so, what circumstances?  
+* Was the Hellwig v. VMWare a strategically wise move on for the community or for commercial actors?
+* Is there any lingering impact from the Oracle v. Google decision that needs to be corrected in another jurisdiction? Did we have enough of a community debate at the time about the need to appeal to the Supreme Court?
+
+This will be a open discussion intend for community involvement. The presenter will briefly summarize key findings regarding the interpretation of the GNU GPL license from the Versata v. AmeriPrise cases and of the CC-NC from the Great Minds v. Fedex Office & Print Servs., Inc. case. Please come prepared to discuss these cases and other relevant cases.

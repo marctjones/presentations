@@ -6,7 +6,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="version" content="S5 1.1" />
   <meta name="author" content="Marc Jones" />
-  <title>What did I just agree to? A quick trip through the un-&quot;popular&quot; open source licenses.</title>
+  <title>Maximizing the value free software to your organization using copyleft</title>
   <style type="text/css">code{white-space: pre;}</style>
   <!-- configuration parameters -->
   <meta name="defaultView" content="slideshow" />
@@ -25,380 +25,245 @@
 <div id="currentSlide"></div>
 <div id="header"></div>
 <div id="footer">
-  <h1>February 2, 2019</h1>
-  <h2>What did I just agree to? A quick trip through the un-&quot;popular&quot; open source licenses.</h2>
+  <h1>February 4, 2018</h1>
+  <h2>Maximizing the value free software to your organization using copyleft</h2>
 </div>
 </div>
 <div class="presentation">
 <div class="titleslide slide">
-  <h1 class="title">What did I just agree to? A quick trip through the un-&quot;popular&quot; open source licenses.</h1>
+  <h1 class="title">Maximizing the value free software to your organization using copyleft</h1>
   <h3 class="author">Marc Jones</h3>
-  <h4 class="date">February 2, 2019</h4>
+  <h4 class="date">February 4, 2018</h4>
 </div>
-<div id="standard-disclaimer" class="slide section level1">
-<h1>Standard disclaimer</h1>
+<div id="common-clause" class="slide section level1">
+<h1>Common Clause</h1>
+<p>Without limiting other conditions in the License, the grant of rights under the License will not include, and the License does not grant to you, the right to <em>Sell</em> the Software.</p>
+<p><a href="https://commonsclause.com/">Common Clause</a></p>
+</div>
+<div id="common-clause---sell" class="slide section level1">
+<h1>Common Clause - Sell</h1>
+<p>For purposes of the foregoing, “Sell” means practicing any or all of the rights granted to you under the License to provide to third parties, for a fee or other consideration (including without limitation fees for hosting or consulting/ support services related to the Software), <em>a product or service whose value derives, entirely or substantially, from the functionality</em> of the Software.</p>
+<p><a href="https://commonsclause.com/">Common Clause</a></p>
+</div>
+<div id="service-side-public-license" class="slide section level1">
+<h1>Service Side Public License</h1>
+<p>If you make the <em>functionality</em> of the Program or a modified version available to third parties as a service, you must make the <em>Service Source Code</em> available via network download to everyone at no charge . . . .</p>
+<p><a href="https://www.mongodb.com/licensing/server-side-public-license">Server Side Public License, Sec. 13</a></p>
+</div>
+<div id="service-side-public-license---service-source-code" class="slide section level1">
+<h1>Service Side Public License - Service Source Code</h1>
+<p>“Service Source Code” means the Corresponding Source for the Program or the modified version, and the Corresponding Source for all programs that you use to make the Program or modified version available as a service, including, without limitation, management software, user interfaces, application program interfaces, automation software, monitoring software, backup software, storage software and hosting software, all such that a user could run an instance of the service using the Service Source Code you make available.</p>
+<p><a href="https://www.mongodb.com/licensing/server-side-public-license">Server Side Public License, Sec. 13</a></p>
+</div>
+<div id="redis-labs-motivation" class="slide section level1">
+<h1>Redis' Labs Motivation</h1>
+<p>&quot;However, today’s cloud providers have repeatedly violated this ethos by taking advantage of successful open source projects and repackaging them into <em>competitive, proprietary service offerings.</em> Cloud providers contribute very little (if anything) to those open source projects.&quot;</p>
+<p><a href="https://redislabs.com/community/licenses/">Why did Redis Labs adopt it?, Licenses, redislabs</a></p>
+</div>
+<div id="redis-labs-motivation-1" class="slide section level1">
+<h1>Redis' Labs Motivation</h1>
+<p>We initially licensed them under AGPL. However, later on we realized AGPL does not prevent cloud providers from creating managed services from our code. Furthermore, we got requests from developers working at large enterprises, to move from AGPL to a more permissive license, because the use of AGPL is against their company policies.</p>
+<p><a href="https://redislabs.com/community/licenses/">Why didn’t you use AGPL for Redis Modules?, Licenses, redislabs</a></p>
+</div>
+<div id="mongodbs-motivation" class="slide section level1">
+<h1>MongoDB's Motivation</h1>
+<p>&quot;The reality, however, is that once an open source project becomes interesting, it is too easy for large cloud vendors <em>to capture all the value</em> but contribute nothing back to the community. As an example, MongoDB has become one of the most popular databases in the industry. As a result, we have observed organizations, especially the international cloud vendors, begin to <em>test the boundaries of the AGPL license.</em>&quot;</p>
+<p><a href="https://www.mongodb.com/licensing/server-side-public-license/faq">Why are you changing the license for MongoDB?</a>, Server Side Public License FAQ</p>
+</div>
+<div id="what-are-they-trying-to-sell" class="slide section level1">
+<h1>What are they trying to sell</h1>
+<p>Prohibiting &amp; Punishing Competitors</p>
 <ul>
-<li>I am a lawyer, but I am not your lawyer</li>
-<li>This is not legal advice (nor is this comprehensive)</li>
-<li>My own opinions our my own, not the opinions of my employer, or any of my clients</li>
+<li>Common clause is focused on monotizing the value of the functionality of the software</li>
+<li>SSPL substaintially increases the burden of compliance on those making the functionally available to others</li>
 </ul>
 </div>
-<div id="the-popular-licenses" class="slide section level1">
-<h1>The &quot;Popular Licenses&quot;</h1>
-<p>OSI-approved licenses that are popular, widely used, or have strong communities</p>
-<h2 id="popular-licenses">&quot;Popular Licenses&quot;</h2>
+<div id="what-are-they-doing-wrong" class="slide section level1">
+<h1>What are they doing wrong</h1>
 <ul>
-<li>Apache License 2.0</li>
-<li>BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; license</li>
-<li>BSD 2-Clause &quot;Simplified&quot; or &quot;FreeBSD&quot; license</li>
-<li>GNU General Public License (GPL)</li>
-<li>GNU Library or &quot;Lesser&quot; General Public License (LGPL)</li>
-<li>MIT license</li>
-<li>Mozilla Public License 2.0</li>
-<li>Common Development and Distribution License</li>
-<li>Eclipse Public License</li>
+<li>They think the commerical value is in the existing software</li>
+<li>They think the cloud hosting providers are &quot;capturing&quot; the value of the software</li>
+<li>The commerical value of Free Software is not in the functionality of the existing software.</li>
+<li>Free Software is essentially a commodity, its hard to make a lot of money selling commodities</li>
 </ul>
 </div>
-<div id="categories-of-licenses" class="slide section level1">
-<h1>Categories of Licenses</h1>
-<p>OSI Classified the licenses into several categories</p>
-<h2 id="categories">Categories</h2>
-<ul>
-<li>Licenses that are &quot;popular and widely-used or with strong communities&quot;</li>
-<li>International licenses</li>
-<li>Special purpose licenses</li>
-<li>Other/Miscellaneous licenses</li>
-<li>Licenses that are redundant with more popular licenses</li>
-</ul>
+<div id="whats-a-commodity" class="slide section level1">
+<h1>What's a commodity</h1>
+<p>&quot;In economics, a commodity is an economic good or service that has full or substantial fungibility: that is, the market treats instances of the good as equivalent or nearly so with <em>no regard to who produced them</em>.&quot;</p>
+<p><a href="https://en.wikipedia.org/wiki/Commodity">Wikipedia - Commodity</a></p>
 </div>
-<div id="categories-of-licenses-1" class="slide section level1">
-<h1>Categories of Licenses</h1>
-<p>OSI Classified the licenses into several categories</p>
-<h2 id="categories-1">Categories</h2>
-<ul>
-<li>Non-reusable licenses</li>
-<li>Superseded licenses</li>
-<li>Licenses that have been voluntarily retired</li>
-<li>Uncategorized Licenses</li>
-</ul>
-</div>
-<div id="contract-language" class="slide section level1">
-<h1>Contract Language</h1>
-<ul>
-<li>&quot;Some AWS Content and Third-Party Content may be provided to you under a separate license, such as the Apache License, Version 2.0, or other <em>open source license.</em> In the event of a conflict between this Agreement and any separate license, the <em>separate license will prevail</em> with respect to the AWS Content or Third-Party Content that is the subject of such separate license.&quot; <a href="https://aws.amazon.com/agreement/">AWS Customer Agreement, Nov. 1, 2018</a></li>
-</ul>
-</div>
-<div id="contract-language-1" class="slide section level1">
-<h1>Contract Language</h1>
-<p>You may only use software that is available in source code form under license approved by the Open Source Initiative and listed at http://www.opensource.org/licenses/ (“Open Source Software”)</p>
-</div>
-<div id="what-do-these-separate-licenses-say" class="slide section level1">
-<h1>What do these “separate licenses” say?</h1>
-<ul>
-<li>What are you agreeing to when you agree to all of those licenses?</li>
-<li>Does anyone go and read all of the licenses?</li>
-<li>How do I know if it is okay to agree to that?</li>
-<li>Is there better language to be express what my clients are willing to agree to?</li>
-</ul>
-</div>
-<div id="what-do-these-separate-licenses-say-1" class="slide section level1">
-<h1>What do these “separate licenses” say?</h1>
-<ul>
-<li>I am going to focus on the licenses that are not the “popular” ones</li>
-<li>I am only going to be talking about licenses approved by OSI as meeting the Open Source Definition</li>
-<li>I am including all of the approved licenses even the retired ones</li>
-<li>Goal is to give a sense of the range of terms that could appear in a generic OSI approved open source license</li>
-<li>I am asking, but not answering, the question: is there a better way to define what licenses are acceptable?</li>
-</ul>
-</div>
-<div id="what-kind-of-the-material-do-the-licenses-apply-to" class="slide section level1">
-<h1>What Kind of the Material do the licenses apply to</h1>
-<ul>
-<li>AGPL applies to “any copyrightable work”</li>
-<li>Apache 2.0 applies to “work of authorship”</li>
-</ul>
-</div>
-<div id="what-kind-of-the-material" class="slide section level1">
-<h1>What Kind of the Material</h1>
-<p>But some licenses only apply to a subset of copyrightable works</p>
-<ul>
-<li><p>Only applies to Software</p>
-<ul>
-<li>Zero-Clause BSD</li>
-<li>ISC License</li>
-</ul></li>
-<li>ADAPTIVE PUBLIC LICENSE only applies to “computer program”</li>
-<li><p>CECIIL-2.1 only applies to “Software and documentation”</p></li>
-</ul>
-</div>
-<div id="what-kind-of-the-material-1" class="slide section level1">
-<h1>What Kind of the Material</h1>
-<p>Any of course there are some licenses that apply to really specific material</p>
-<p>Frameworx license only applies to the “Frameworx Code Base”</p>
-</div>
-<div id="what-kind-of-the-material-2" class="slide section level1">
-<h1>What Kind of the Material</h1>
-<p>Generally:</p>
-<ul>
-<li>applies to any “copyrightable work” (or equivalent phrase)</li>
-<li>software and accompanying documentation</li>
-<li>just software</li>
-</ul>
-</div>
-<div id="what-kind-of-the-material-3" class="slide section level1">
-<h1>What Kind of the Material</h1>
-<p>Don’t assume all licenses operate the same.</p>
-<p>If some hands you a project that is licensed under the ISC License. Should I be asking if I have a license to use the documentation? What about any data files that might be required? How useful is a video game if you only get a license to the “software” and not any of the data on the levels, maps, or characters?</p>
-</div>
-<div id="rights-granted" class="slide section level1">
-<h1>Rights Granted</h1>
-<p>Similarly for rights granted.</p>
-<p>Apache grants:</p>
-<ul>
-<li>“copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works” and;</li>
-<li>“patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work”</li>
-</ul>
-</div>
-<div id="rights-granted-1" class="slide section level1">
-<h1>Rights Granted</h1>
-<p>Can we make this broad assumption for all FOSS licenses.</p>
-<p>Fair License says: “<em>Usage</em> of the works is permitted provided that...”</p>
-</div>
-<div id="rights-granted-2" class="slide section level1">
-<h1>Rights Granted</h1>
-<p>Can we make this broad assumption for all FOSS licenses.</p>
-<p>In order to preserve the integrity of the existing conformance modes of this test package and to permit recipients of modified versions of this package to run the original test modes, this license <em>requires that the original test modes be preserved.</em></p>
-<p>-Open Group Test Suite License</p>
-</div>
-<div id="rights-granted-3" class="slide section level1">
-<h1>Rights Granted</h1>
-<p>You may otherwise modify your copy of this Package . . . . provided that you do at least the following:</p>
-<p>. . . .</p>
-<p>rename any non-standard executables and testcases so the names do not conflict with standard executables and testcases, which must also be provided, and <em>provide a separate manual page for each non-standard executable</em> and testcase that clearly documents how it differs from the Standard Version.</p>
-<p>-Open Group Test Suite License</p>
-</div>
-<div id="rights-granted-4" class="slide section level1">
-<h1>Rights Granted</h1>
-<p>And sometimes you don’t have the right to distribute modified versions of the software</p>
-<ol start="2" style="list-style-type: decimal">
-<li>You may copy and distribute the Software in unmodified form….</li>
-<li>You may make modifications to the Software and distribute your modifications, in a form that is separate from the Software, such as patches.</li>
+<div id="whats-a-commodity-1" class="slide section level1">
+<h1>What's a commodity</h1>
+<ol start="3" style="list-style-type: decimal">
+<li>a good or service whose wide availability typically <em>leads to smaller profit margins</em> and <em>diminishes the importance of factors (such as brand name) other than price</em></li>
 </ol>
-<p>The Q Public License Version (QPL-1.0)</p>
+<p><a href="https://www.merriam-webster.com/dictionary/commodity">Merriam-Webster - commodity</a></p>
 </div>
-<div id="what-i-am-talking-about" class="slide section level1">
-<h1>What I am talking about</h1>
+<div id="the-problem" class="slide section level1">
+<h1>The Problem</h1>
 <ul>
-<li>This is not a list of every OSI approved licensed</li>
-<li>I am not going to read all of the licenses to you</li>
-<li>But I did want to share some surprises that go against most peoples general exceptions for how OSI approved open source licenses operate</li>
+<li><p>The marginal production cost of making another unit of the last release of is essentially zero.</p></li>
+<li><p>The fixed cost of producing new software including free software is not zero</p></li>
 </ul>
 </div>
-<div id="restrictions-on-use" class="slide section level1">
-<h1>Restrictions on use</h1>
-<p>Restricting the price of services related to the software</p>
-<p>“3 (b) Any Value-Added Services that you offer . . . in relation to any Downstream Distribution shall be offered and provided on commercial terms that are reasonably commensurate to the fair market value of such Value-Added Services. In addition, the terms and conditions on which any such Value Added Services are so offered or provided shall be consistent with, and shall fully support, the intent and purpose of this License Agreement.</p>
-<p>Frameworx License 1.0</p>
+<div id="the-wrong-solution" class="slide section level1">
+<h1>The wrong solution</h1>
+<p><a href="https://techcrunch.com/2018/09/07/commons-clause-stops-open-source-abuse/?guccounter=1">&quot;Commons Clause stops open-source abuse&quot;</a>, Salil Deshpande, Tech Crunch September 7, 2018</p>
+<p>Salil Deshpande is a investor in RedisLabs</p>
 </div>
-<div id="network-copyleft" class="slide section level1">
-<h1>Network Copyleft</h1>
+<div id="the-wrong-solution-to-a-none-existant-problem" class="slide section level1">
+<h1>The wrong solution to a none existant problem</h1>
+<p>&quot;First, do not worry about Redis Labs. The company is doing very, very well. And Redis is stronger, more loved and more BSD than ever before.&quot;</p>
+<p><a href="https://techcrunch.com/2018/09/07/commons-clause-stops-open-source-abuse/?guccounter=1">&quot;Commons Clause stops open-source abuse&quot;</a>, Salil Deshpande, Tech Crunch September 7, 2018</p>
+</div>
+<div id="they-are-leaving-the-wrong-money-on-the-table" class="slide section level1">
+<h1>They are leaving the wrong money on the table</h1>
+<ul>
+<li>MongoDB and redis require a CLA</li>
+<li>CLA's reserve the right to the company to change the license later</li>
+</ul>
+</div>
+<div id="they-are-leaving-the-wrong-money-on-the-table-1" class="slide section level1">
+<h1>They are leaving the wrong money on the table</h1>
+<ul>
+<li>The top thirty <a href="https://github.com/mongodb/mongo/graphs/contributors">contributors</a> to MongoDB worked for MongoDB or affilate</li>
+</ul>
+</div>
+<div id="they-are-leaving-the-wrong-money-on-the-table-2" class="slide section level1">
+<h1>They are leaving the wrong money on the table</h1>
 <ol style="list-style-type: decimal">
-<li>Academic Free License 3.0</li>
-<li>GNU Affero General Public License version 3</li>
-<li>Apple Public Source License 2.0</li>
-<li>Common Public Attribution License Version 1.0</li>
-<li>European Union Public License, version 1.2</li>
-<li>The Non-Profit Open Software License version 3.0</li>
-<li>The Open Software License 3.0 (OSL-3.0)</li>
-<li>Reciprocal Public License (RPL-1.5)</li>
+<li>They are complaining that the cloud providers arent contributing back, but</li>
+<li>They require people to give them a unlimited license</li>
 </ol>
 </div>
-<div id="network-copyleft-1" class="slide section level1">
-<h1>Network Copyleft</h1>
-<ol start="9" style="list-style-type: decimal">
-<li>RealNetworks Public Source License Version 1.0</li>
-<li>Upstream Compatibility License v1.0</li>
+<div id="they-are-leaving-the-wrong-money-on-the-table-3" class="slide section level1">
+<h1>They are leaving the wrong money on the table</h1>
+<ol style="list-style-type: decimal">
+<li>I am mad you are getting paid for doing work.</li>
+<li>No, being partners to share the costs and the benefits is not an option.</li>
+<li>I want you to work for me for free.</li>
 </ol>
 </div>
-<div id="network-copyleft-2" class="slide section level1">
-<h1>Network Copyleft</h1>
-<p><em>if you modify</em> the Program, your modified version must prominently offer all users interacting with it remotely through a computer network . . . an opportunity to receive the Corresponding Source . . .</p>
+<div id="how-does-open-source-actually-work" class="slide section level1">
+<h1>How does open source actually work</h1>
+<p>Linux Kernel's business model</p>
+<ol style="list-style-type: decimal">
+<li><p>GPLv2, plus some exceptions</p></li>
+<li><p>Open participation</p>
+<pre><code>By making a contribution to this project, I certify that:
+
+(a) The contribution was created in whole or in part by me and I
+    have the right to submit it under the open source license
+    indicated in the file;</code></pre></li>
+</ol>
+<p><a href="https://elinux.org/Developer_Certificate_Of_Origin">Developer's Certificate of Origin 1.1</a></p>
+</div>
+<div id="how-does-open-source-actually-work-1" class="slide section level1">
+<h1>How does open source actually work</h1>
 <ul>
-<li>GNU Affero General Public License version 3</li>
+<li>No one sells the linux kernel, the contributors are pooling thier resources to share the fixed cost of production</li>
+<li>Companies do sell services</li>
+<li>Companies find value in their reputation and brand for providing those services</li>
 </ul>
 </div>
-<div id="network-copyleft-3" class="slide section level1">
-<h1>Network Copyleft</h1>
-<p>The term &quot;External Deployment&quot; <em>means the use,</em> distribution, or communication of the Original Work or Derivative Works in any way such that the Original Work or Derivative Works may be used by anyone other than You, whether those works are distributed or communicated to those persons or made available as an application intended for use over a network. As an express condition for the grants of license hereunder, You must treat any <em>External Deployment by You</em> of the Original Work or a Derivative Work <em>as a distribution</em> under section 1(c).</p>
-<p>Open Software License 3.0</p>
-</div>
-<div id="network-copyleft-4" class="slide section level1">
-<h1>Network Copyleft</h1>
-<p>‘Distribution’ or ‘Communication’: any act of selling, giving, lending, renting, distributing, communicating, transmitting, or otherwise making available, online or offline, copies of the Work or <em>providing access to its essential functionalities</em> at the disposal of any other natural or legal person.</p>
-<p>European Union Public License, version 1.2</p>
-</div>
-<div id="scope-of-the-covered-materials" class="slide section level1">
-<h1>Scope of the covered Materials</h1>
+<div id="redhat" class="slide section level1">
+<h1>RedHat</h1>
 <ul>
-<li>You must make available, under the terms of this License, the Source Code of any Extensions that You Deploy, via an Electronic Distribution Mechanism.</li>
-<li>&quot;Deploy&quot; means to <em>use,</em> Serve, sublicense or distribute Licensed Software other than for Your internal Research and/or Personal Use, and includes without limitation, any and <em>all internal use or distribution</em> of Licensed Software within Your business or organization other than for Research and/or Personal Use</li>
-<li>Extension includes Modifications</li>
-<li>&quot;Modifications&quot; means any additions to or deletions from the substance or structure of (i) a file . . . or (iii) any file or storage which <em>replaces or otherwise alters the original functionality</em> of Licensed Software at runtime.</li>
-</ul>
-<p>Reciprocal Public License (RPL-1.5)</p>
-</div>
-<div id="some-stats" class="slide section level1">
-<h1>Some Stats</h1>
-<ul>
-<li>83 OSI Approved Licenses listed on the OSI site</li>
-<li>Over 30 OSI Approved Licenses are copyleft</li>
-<li>Over 24 OSI Approved Licenses have a choice of law clause</li>
-<li>Over 18 of them hard code a specific jurisdiction</li>
-<li>Over 19 OSI Approved Licenses have a choice of venue clause</li>
-<li>Over 16 OSI approved licenses have some kind of CLA built into the license/Agreement</li>
-<li>At least 1 license doesn't have any kind of warranty or liability disclaimer (Multics License)</li>
+<li>Sells support services (ex: back ports patches)</li>
+<li>Sells engineering services</li>
+<li>Sells certification and training</li>
 </ul>
 </div>
-<div id="choice-of-law" class="slide section level1">
-<h1>Choice of Law</h1>
+<div id="other-open-source-companies" class="slide section level1">
+<h1>Other Open Source companies</h1>
 <ul>
-<li>New York (CATOSL; EPL; IPL-1.0; LPL-1.02; Adaptive Public License defaults there unless otherwise specified)</li>
-<li>California (APSL, CPAL, RSCPL)</li>
-<li>French Law (CECILL)</li>
-<li>Belgian Law (EUPL for Licensors not located in the EU)</li>
-<li>Japan (IPA)</li>
-<li>Quebec (LiLiQ-*)</li>
-<li>United States federal law only (NASA-1.3)</li>
-<li>Ohio (OCLC-2.0)</li>
-<li>Norway (QPL-1.0)</li>
-<li>Colorado (RPL-1.5)</li>
+<li>&quot;Complate code freedom&quot;
+<ul>
+<li>&quot;You also aren’t locked into a vendor and you never need to worry about paying for software licenses&quot;</li>
+</ul></li>
+<li>&quot;Product support&quot;
+<ul>
+<li>&quot;No matter your choice for hosting, we’re here to help you get the most out of RT.&quot;</li>
+</ul></li>
+<li>&quot;How to Deploy&quot;
+<ul>
+<li>&quot;Choose from managed hosting, self-hosted, or cloud hosting through <em>AWS.</em>&quot;</li>
+</ul></li>
+<li>&quot;Managed Hosting&quot;</li>
+<li>&quot;Join us at our next Public Training!&quot;
+<ul>
+<li>&quot;Receive real time unparalleled instruction from the people who make RT ...&quot;</li>
+</ul></li>
+</ul>
+<p>Best Practial's <a href="https://bestpractical.com/">Homepage</a> (producer of Request Tracker)</p>
+</div>
+<div id="how-does-open-source-actually-work-2" class="slide section level1">
+<h1>How does open source actually work</h1>
+<ul>
+<li>You don't sell software or software functionality</li>
+<li>Part of value you are giving to customers is freedom to fire you at minimal cost</li>
+<li>You are competing on the quality of services</li>
+<li>ex: CivicAction's is &quot;Monitizing Presence&quot;</li>
 </ul>
 </div>
-<div id="place-of-business" class="slide section level1">
-<h1>Place of business</h1>
+<div id="what-to-do" class="slide section level1">
+<h1>What to do</h1>
 <ul>
-<li>“Any action or suit <em>relating to this License</em> may be brought only in the courts of a jurisdiction wherein the Licensor resides or in which Licensor conducts its primary business” - Open Software License v3.0</li>
-<li>“governed by the law of the European Union Member State where the Licensor has his seat” - EUPL-1.2</li>
-<li>“If You are a government of a state of the United States, or Your use of the Covered Software is pursuant to a procurement contract with such a state government, this License shall be governed by the law of such state...” OSET Public License</li>
+<li>Recognize the real value you are trying selling (hint it isn't the software)</li>
+<li>Develop a plan to minimize your costs
+<ul>
+<li>Treat your partners with respect, operate under the same licenses you give to others</li>
+<li>Cooperate with your competitors to minimize the fix costs of production on equal terms</li>
+</ul></li>
+<li>Focus on earning reveuw from your services
+<ul>
+<li>Creating custom modifications</li>
+<li>Develop new features and releases</li>
+<li>Providing long term support (back porting security fixes)</li>
+<li>Expertise in the software</li>
+</ul></li>
 </ul>
 </div>
-<div id="choice-of-law-1" class="slide section level1">
-<h1>Choice of Law</h1>
-<p>Can be modified by the licensor</p>
-<p>“This License shall be governed by the law of the jurisdiction specified in a notice contained within the Original Software“ - CDDL v1.0</p>
+<div id="what-is-the-value-of-copyleft" class="slide section level1">
+<h1>What is the value of copyleft</h1>
 <ul>
-<li>Adaptive Public License defaults to New York unless otherwise specified</li>
+<li>Copyleft helps you cooperate with your competitors</li>
+<li>Forces the product to stay a commodity</li>
+<li>Eliminates the technology advantage</li>
+<li>Forces your focus on services and reputation</li>
+<li>Provides you with the widest pool of commons available</li>
 </ul>
 </div>
-<div id="venue" class="slide section level1">
-<h1>Venue</h1>
-<p>Similar properties to the choice of law clauses</p>
+<div id="what-is-the-value-of-copyleft-1" class="slide section level1">
+<h1>What is the value of copyleft</h1>
 <ul>
-<li>Specific Jurisdiction</li>
-<li>Dependent on who the licensor is (State or national governments)</li>
-<li>Some twists</li>
+<li>You can only get the full advantage of copyleft if you are subject to it as well</li>
+<li>Easier for you to share if you know a competitor can't make it proprietary</li>
+<li>Eaiser for your competitor to share with you, if your competitor knows you can't make it proprietary</li>
 </ul>
 </div>
-<div id="venue-1" class="slide section level1">
-<h1>Venue</h1>
-<p>agree that any cause of action arising under or related to this Agreement shall be brought in the Federal Courts of the Northern District of California, with venue lying in Santa Clara County, California.</p>
-<p>… .</p>
-<p>Notwithstanding anything to the contrary herein, RSV may seek injunctive relief related to a breach of this Agreement in any court of competent jurisdiction.</p>
-<p>Ricoh Source Code Public License</p>
-</div>
-<div id="statute-of-limits" class="slide section level1">
-<h1>Statute of Limits</h1>
-<p>At least 5 OSI approved licenses limit both or one of the parties from bringing a cause of action more than one year after the cause of action arises (APL, EPL, CATOSL-1.1, IPL, LPL)</p>
-<p>“No party may bring a legal action under this License more than one year after the cause of the action arose.”</p>
-<p>Adaptive Public Licensed</p>
-</div>
-<div id="warranties" class="slide section level1">
-<h1>Warranties</h1>
-<p>All of them have a “as is” warranty (almost)</p>
-<p>But …</p>
-<p>“This DISCLAIMER OF WARRANTY constitutes an essential part of this License. <em>No license to the Original Work is granted</em> by this License except under this disclaimer.”</p>
-<p>Open Software License 3.0</p>
-</div>
-<div id="limitations-of-liability" class="slide section level1">
-<h1>limitations of Liability</h1>
-<p>Similarly almost all licenses try to disclaim all libaility</p>
-<p>But …</p>
+<div id="what-is-the-value-of-copyleft-2" class="slide section level1">
+<h1>What is the value of copyleft</h1>
 <ul>
-<li>What about attempts to attempts to limit the license beyond what is allowed by the local jurisdiction</li>
-<li>Some have specified damage caps (Watcom $500; RPSL $10; RSCPL $5,000)</li>
+<li>Copyleft Licenses are essentially JV agreements</li>
+<li>Using standardize licenses lowers the transaction costs</li>
+<li>No lawyers required to negotiate the agreement</li>
+<li>Minimial overhead (no seperate entities, minimal paperwork)</li>
+<li>You can cooperate with someone you aren't talking to you (or even someone you hate)</li>
 </ul>
 </div>
-<div id="third-party-beneficiaries" class="slide section level1">
-<h1>Third Party Beneficiaries</h1>
-<p>10.1. The obligations imposed by this License are for the <em>benefit</em> of the Initial Contributor and any Recipient, and each Recipient acknowledges and agrees that the Initial Contributor and/or <em>any other Recipient may enforce the terms</em> and conditions of this License <em>against any Recipient.</em></p>
-<p>-ADAPTIVE PUBLIC LICENSE</p>
+<div id="rediss-real-motivation" class="slide section level1">
+<h1>Redis's Real Motivation</h1>
+<p>I admire Amazon’s execution. In the venture business we are used to the large software incumbents . . . being primarily big sales and distribution channels, which need to acquire innovation (i.e. startups) to feed their channel. Not Amazon. In July 2015, The Wall Street Journal quoted me as saying, “Amazon executes too well, almost like a startup. This is scary for everyone in the ecosystem.”</p>
+<p><a href="https://techcrunch.com/2018/09/07/commons-clause-stops-open-source-abuse/?guccounter=1">&quot;Commons Clause stops open-source abuse&quot;</a>, Salil Deshpande, Tech Crunch September 7, 2018</p>
 </div>
-<div id="third-party-beneficiaries-1" class="slide section level1">
-<h1>Third Party Beneficiaries</h1>
-<p>THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR REDISTRIBUTIONS OF THE SUBJECT SOFTWARE.</p>
-<p>NASA Open Source Agreement v1.3</p>
-</div>
-<div id="jury-trials" class="slide section level1">
-<h1>Jury Trials</h1>
-<p>“Each party waives its rights to a jury trial in any resulting litigation.”</p>
-<p>Eclipse Public License 1.0</p>
-</div>
-<div id="attribution-requirements" class="slide section level1">
-<h1>Attribution Requirements</h1>
-<p>Several Licenses have requirements for displaying Attribution Information</p>
-<p><em>each time the resulting executable program or a program dependent thereon is launched, a prominent display (e.g., splash screen or banner text) of the Author's attribution information, which includes:</em></p>
-<p>Attribution Assurance License</p>
-<p>AAL also requires the license text to be signed by GPG.</p>
-</div>
-<div id="attribution-requirements-1" class="slide section level1">
-<h1>Attribution Requirements</h1>
-<p>“As a modest attribution to the Initial Contributor, in the hope that its promotional value may help justify the time, money and effort invested in writing the Initial Work, the Initial Contributor may include in Part 2 of the Supplement File a requirement that each time an executable program resulting from the Initial Work or any Subsequent Work, or a program dependent thereon, is launched or run, a prominent display of the Initial Contributor's attribution information must occur (the &quot;ATTRIBUTION INFORMATION&quot;).”</p>
-<p>Adaptive Public License 1.0</p>
-</div>
-<div id="notices" class="slide section level1">
-<h1>Notices</h1>
-<p>Normal requirement to keep notices in place, or even to add them to specific files.</p>
-</div>
-<div id="legal-notifications" class="slide section level1">
-<h1>Legal Notifications</h1>
-<p>Sometimes you need to describe the limitations on your license being offered (MPL 1.0 derived licenses)</p>
-<p>If it is impossible for you to comply with any of the terms of this License … then you must (i) comply with the terms of this License to the maximum extent possible, (ii) cite the [the reason or law] and (iii) describe the limitations and the code they affect. Such description must be included in the LEGAL file … . Except to the extent prohibited . . . such description must be sufficiently detailed for a recipient of <em>ordinary skill at computer programming</em> to be able to understand it.</p>
+<div id="rediss-new-problem" class="slide section level1">
+<h1>Redis's new problem</h1>
 <ul>
-<li>MOTOSOTO OPEN SOURCE LICENSE - Version 0.9.1</li>
-</ul>
-</div>
-<div id="legal-notifications-1" class="slide section level1">
-<h1>Legal Notifications</h1>
-<p>If You have knowledge that a party claims an intellectual property right in particular functionality . . . you must include a text file with the source code distribution titled &quot;LEGAL&quot; . . . . If you obtain such knowledge after You make Your Modification available . . . You shall promptly modify the LEGAL file in all copies You make available thereafter and shall take <em>other steps (such as notifying appropriate mailing lists or newsgroups) reasonably calculated to inform those who received the Covered Code that new knowledge has been obtained.</em></p>
-<ul>
-<li>The Mozilla Public License (MPL), version 1.0</li>
-</ul>
-</div>
-<div id="super-user-rights" class="slide section level1">
-<h1>Super user Rights</h1>
-<p>EU Datagrid gives a license to EUDatagrid anytime you publish or distribute modifications not accompanied with a written agreement.</p>
-</div>
-<div id="super-user-rights-1" class="slide section level1">
-<h1>Super User Rights</h1>
-<p><em>If you are the Current Maintainer</em> of the Work, you may, <em>without restriction</em>, modify the Work, thus creating a Derived Work. You may also <em>distribute</em> the Derived Work <em>without restriction,</em> including Compiled Works generated from the Derived Work. . . .</p>
-<p><em>If you are not the Current Maintainer of the Work</em>, you may distribute a Derived Work <em>provided</em> the following conditions are met . . .</p>
-<p>LaTeX Project Public License, Version 1.3c</p>
-</div>
-<div id="creating-derivative-licenses" class="slide section level1">
-<h1>Creating Derivative Licenses</h1>
-<ul>
-<li>Open Software License prevents you from calling your derivative license “open source” unless it is approved by OSI</li>
-<li>Some licenses don't name the license steward and the license steward is in effect the originally copyright holder, who can publish new versions of the license for the program</li>
-</ul>
-</div>
-<div id="conclusions" class="slide section level1">
-<h1>Conclusions</h1>
-<ul>
-<li>Big variety of terms</li>
-<li>Contains variations on a lot the things transactional lawyers nitpick about</li>
-<li>There is a chance your licensing experiment has been run if read all of the licenses</li>
-<li>Consider moving from accepting all &quot;open source licenses&quot; to a defined subset</li>
-<li>Its hard to make generalizations about open source software</li>
+<li><a href="https://github.com/goodform">Goodforms</a> Exists</li>
+<li>Closed off any possibility of cooperation</li>
+<li>No one believes them that they aren't pursuing vendor lock in</li>
+<li>They still don't know what value they are adding</li>
 </ul>
 </div>
 </div>

@@ -1,6 +1,12 @@
-% What did I just agree to? A quick trip through the un-"popular" open source licenses.
+﻿% What did I just agree to? A quick trip through the un-"popular" open source licenses.
 % Marc Jones
 % February 2, 2019
+
+# Standard disclaimer
+
+* I am a lawyer, but I am not your lawyer
+* This is not legal advice (nor is this comprehensive)
+* My own opinions our my own, not the opinions of my employer, or any of my clients
 
 #The "Popular Licenses"
 
@@ -22,7 +28,6 @@ OSI-approved licenses that are popular, widely used, or have strong communities
 
 OSI Classified the licenses into several categories
 
-
 ## Categories
 
 - Licenses that are "popular and widely-used or with strong communities" 
@@ -30,6 +35,13 @@ OSI Classified the licenses into several categories
 - Special purpose licenses
 - Other/Miscellaneous licenses
 - Licenses that are redundant with more popular licenses
+
+# Categories of Licenses
+
+OSI Classified the licenses into several categories
+
+## Categories
+
 - Non-reusable licenses
 - Superseded licenses
 - Licenses that have been voluntarily retired
@@ -39,96 +51,326 @@ OSI Classified the licenses into several categories
 
 - "Some AWS Content and Third-Party Content may be provided to you under a separate license, such as the Apache License, Version 2.0, or other *open source license.* In the event of a conflict between this Agreement and any separate license, the *separate license will prevail* with respect to the AWS Content or Third-Party Content that is the subject of such separate license." [AWS Customer Agreement, Nov. 1, 2018](https://aws.amazon.com/agreement/)
 
-# What do these separate licenses say?
 
-# Kind of the Material
-Only applies to Software
-0BSD
-ISC
+# Contract Language
+
+You may only use software that is available in source code form under license  approved by the Open Source Initiative and listed at http://www.opensource.org/licenses/ (“Open Source Software”)
+
+# What do these “separate licenses” say?
+
+* What are you agreeing to when you agree to all of those licenses?
+* Does anyone go and read all of the licenses?
+* How do I know if it is okay to agree to that?
+* Is there better language to be express what my clients are willing to agree to?
+
+# What do these “separate licenses” say?
+
+* I am going to focus on the licenses that are not the “popular” ones
+* I am only going to be talking about licenses approved by OSI as meeting the Open Source Definition
+* I am including all of the approved licenses even the retired ones
+* Goal is to give a sense of the range of terms that could appear in a generic OSI approved open source license
+* I am asking, but not answering, the question: is there a better way to define what licenses are acceptable? 
+
+# What Kind of the Material do the licenses apply to
+
+* AGPL applies to “any copyrightable work”
+* Apache 2.0 applies to “work of authorship”
+
+# What Kind of the Material
+
+But some licenses only apply to a subset of copyrightable works
+
+* Only applies to Software
+
+    * Zero-Clause BSD
+    * ISC License
+
+* ADAPTIVE PUBLIC LICENSE only applies to “computer program”
+* CECIIL-2.1 only applies to “Software and documentation”
+
+# What Kind of the Material
+Any of course there are some licenses that apply to really specific material
+
+Frameworx license only applies to the “Frameworx Code Base”
+
+# What Kind of the Material
+
+Generally:
+
+* applies to any “copyrightable work” (or equivalent phrase) 
+* software and accompanying documentation
+* just software
+
+# What Kind of the Material
+
+Don’t assume all licenses operate the same. 
+
+If some hands you a project that is licensed under the ISC License. Should I be asking if I have a license to use the documentation? What about any data files that might be required? How useful is a video game if you only get a license to the “software” and not any of the data on the levels, maps, or characters?
 
 # Rights Granted
-Many  licenses do not grant all of the copyright rights
-Some of the licenses only grant a subset of rights applicable to software
-FAIR only grants “usage rights”
-Patent rights sometimes are only the right to use
-Rights sometimes depend on if you are the maintainer. See LPPL for how the “current maintainer” is treated as having super user rights.
 
-# Attribution Requirements
-GPG signed text - AAL
-Display Attribution Information - AAL
-You must mark each file as changed licensed under Apache-2.0
-You must display attribution information under Apache 2.0
+Similarly for rights granted.
 
-#Scope of Covered Material
-Only Software
-0BSD
-Applies to Works of Authorship
-Apache
-AFL (plus documentation)
-Applies to source code, documentation and object code
-APL
-Includes scripts (build, installation, etc…)
-APL
-GPL
-AGPL
+Apache grants:
 
-# Preserving Notices
-Framework - Keep in place pretty much all kinds of marks anywhere in the code base
-# Legal Notifications
-Describe the limitations on your license being offered - MPL derived software?
-Motosoto - If it is impossible for you to comply with any of the terms of this License with respect to some or all of the Licensed Product due to statute, judicial order, or regulation, then you must (i) comply with the terms of this License to the maximum extent possible, (ii) cite the statute or regulation that prohibits you from adhering to the License, and (iii) describe the limitations and the code they affect. Such description must be included in the LEGAL file described in Section 4(d), and must be included with all distributions of the Source Code. Except to the extent prohibited by statute or regulation, such description must be sufficiently detailed for a recipient of ordinary skill at computer programming to be able to understand it.
+* “copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works” and;
+* “patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work”
 
-# Creating Derivative Licenses
-Weirdly one license prevents you from calling your new license unless it is approved by OSI
-Most licenses name the license steward.
-May licenses allow you to automatically use new versions of the license
-Some licenses don't name the license steward and the licence steward is in effect the originally copyright holder, which allows them to change the terms unilaterally?
-LPPL has concept of current Maintainer which allows the current maintainer to distribute with few restrictions including in violation of the license terms.
-Misc
-If you modify the AFL you agree not call something open source unless it is 
-Any one who distributes CECILL software promises to get patent transferees to agree to the license
+# Rights Granted
 
+Can we make this broad assumption for all FOSS licenses.
+
+Fair License says: “*Usage* of the works is permitted provided that...”
+
+# Rights Granted
+
+Can we make this broad assumption for all FOSS licenses.
+
+In order to preserve the integrity of the existing conformance modes of this test package and to permit recipients of modified versions of this package to run the original test modes, this license *requires that the original test modes be preserved.*
+
+ -Open Group Test Suite License
+
+# Rights Granted
+
+You may otherwise modify your copy of this Package . . . . provided that you do at least the following:
+
+. . . . 
+
+rename any non-standard executables and testcases so the names do not conflict with standard executables and testcases, which must also be provided, and *provide a separate manual page for each non-standard executable* and testcase that clearly documents how it differs from the Standard Version.
+
+ -Open Group Test Suite License
+
+# Rights Granted
+
+And sometimes you don’t have the right to distribute modified versions of the software
+
+2. You may copy and distribute the Software in unmodified form….
+3. You may make modifications to the Software and distribute your modifications, in a form that is separate from the Software, such as patches.
+
+The Q Public License Version (QPL-1.0)
+
+# What I am talking about
+
+* This is not a list of every OSI approved licensed
+* I am not going to read all of the licenses to you
+* But I did want to share some surprises that go against most peoples general exceptions for how OSI approved open source licenses operate
+
+# Restrictions on use
+
+Restricting the price of services related to the software
+
+“3 (b) Any Value-Added Services that you offer . . . in relation to any Downstream Distribution shall be offered and provided on commercial terms that are reasonably commensurate to the fair market value of such Value-Added Services. In addition, the terms and conditions on which any such Value Added Services are so offered or provided shall be consistent with, and shall fully support, the intent and purpose of this License Agreement.
+
+Frameworx License 1.0
 
 
 # Network Copyleft
-AFL-3.0
-AGPL-3.0
-APL-1.0 (not governed by the license, but must display notice to “any party using” the work)
-APSL
-EU Datagrid gives a license to EUDatagrid anytime you publish modifications not accompanied with a written agreement.
 
-# Termination
-Any patent action against Apple terminates all of the APSL
+1. Academic Free License 3.0
+2. GNU Affero General Public License version 3
+3. Apple Public Source License 2.0
+4. Common Public Attribution License Version 1.0
+5. European Union Public License, version 1.2
+6. The Non-Profit Open Software License version 3.0
+7. The Open Software License 3.0 (OSL-3.0)
+8. Reciprocal Public License (RPL-1.5)
 
-# Warranty
-Warranties vary widely
-Frequently does not disclaim include warranty against infringement
-Sometimes conditions license on warranty that doesn't have carve outs for limitations
-Frequently makes representations about the copyrights to code contributions
-Many licenses do not disclaim specific implied warranties
-FAIR
-Liability
-Often liability does not exclude willful actions or actions resulting in death
+# Network Copyleft
 
-# Indemnification
-Indemnify other contributors are frequent requirement for distribution or giving a warranty of your own
+9. RealNetworks Public Source License Version 1.0
+10. Upstream Compatibility License v1.0
+
+# Network Copyleft
+
+*if you modify* the Program, your modified version must prominently offer all users interacting with it remotely through a computer network . . . an opportunity to receive the Corresponding Source . . .
+
+- GNU Affero General Public License version 3
 
 
-# Limitation on services
-Framework limits how much you can charge for related services
+# Network Copyleft
 
-# Choice of Law & Venue
-Named jurisdiction
-Modifiable
-Place of business
+The term "External Deployment" *means the use,* distribution, or communication of the Original Work or Derivative Works in any way such that the Original Work or Derivative Works may be used by anyone other than You, whether those works are distributed or communicated to those persons or made available as an application intended for use over a network. As an express condition for the grants of license hereunder, You must treat any *External Deployment by You* of the Original Work or a Derivative Work *as a distribution* under section 1(c).
+
+Open Software License 3.0
+
+# Network Copyleft
+
+‘Distribution’ or ‘Communication’: any act of selling, giving, lending, renting, distributing, communicating, transmitting, or otherwise making available, online or offline, copies of the Work or *providing access to its essential functionalities* at the disposal of any other natural or legal person.
+
+European Union Public License, version 1.2
+
+# Scope of the covered Materials
+
+* You must make available, under the terms of this License, the Source Code of any Extensions that You Deploy, via an Electronic Distribution Mechanism. 
+* "Deploy" means to *use,* Serve, sublicense or distribute Licensed Software
+other than for Your internal Research and/or Personal Use, and includes
+without limitation, any and *all internal use or distribution* of Licensed
+Software within Your business or organization other than for Research and/or
+Personal Use
+* Extension includes Modifications
+* "Modifications" means any additions to or deletions from the substance or
+structure of (i) a file . . . or (iii) any file or storage which *replaces or otherwise alters the original functionality* of Licensed Software at runtime. 
+
+Reciprocal Public License (RPL-1.5)
+
+# Some Stats
+
+* 83 OSI Approved Licenses listed on the OSI site
+* Over 30 OSI Approved Licenses are copyleft
+* Over 24 OSI Approved Licenses have a choice of law clause
+* Over 18 of them hard code a specific jurisdiction
+* Over 19 OSI Approved Licenses have a choice of venue clause
+* Over 16 OSI approved licenses have some kind of CLA built into the license/Agreement
+* At least 1 license doesn't have any kind of warranty or liability disclaimer (Multics License)
+
+# Choice of Law
+* New York (CATOSL; EPL; IPL-1.0; LPL-1.02;  Adaptive Public License defaults there unless otherwise specified)
+* California (APSL, CPAL, RSCPL)
+* French Law (CECILL)
+* Belgian Law (EUPL for Licensors not located in the EU)
+* Japan (IPA)
+* Quebec (LiLiQ-*)
+* United States federal law only (NASA-1.3)
+* Ohio (OCLC-2.0)
+* Norway (QPL-1.0)
+* Colorado (RPL-1.5)
+
+# Place of business
+
+* “Any action or suit *relating to this License* may be brought only in the courts of a jurisdiction wherein the Licensor resides or in which Licensor conducts its primary business” - Open Software License v3.0
+* “governed by the law of the European Union Member State where the Licensor has his seat” - EUPL-1.2
+*  “If You are a government of a state of the United States, or Your use of the Covered Software is pursuant to a procurement contract with such a state government, this License shall be governed by the law of such state...” OSET Public License
+
+
+# Choice of Law
+
+Can be modified by the licensor
+
+“This License shall be governed by the law of the jurisdiction specified in a notice contained within the Original Software“ - CDDL v1.0
+
+* Adaptive Public License defaults to New York unless otherwise specified
+
+
+#Venue
+
+Similar properties to the choice of law clauses
+
+* Specific Jurisdiction
+* Dependent on who the licensor is (State or national governments)
+* Some twists
+
+#Venue
+
+agree that any cause of action arising under or related to this Agreement shall be brought in the Federal Courts of the Northern District of California, with venue lying in Santa Clara County, California.
+
+… .
+
+Notwithstanding anything to the contrary herein, RSV may seek injunctive relief related to a breach of this Agreement in any court of competent jurisdiction.
+
+Ricoh Source Code Public License
 
 # Statute of Limits
-1 year from cause of action being known
+
+At least 5 OSI approved licenses limit both or one of the parties from bringing a cause of action more than one year after the cause of action arises (APL, EPL, CATOSL-1.1, IPL, LPL) 
+
+“No party may bring a legal action under this License more than one year after the cause of the action arose.”
+
+Adaptive Public Licensed
+
+# Warranties
+
+All of them have a “as is” warranty (almost)
+
+But …
+
+“This DISCLAIMER OF WARRANTY constitutes an essential part of this License. *No license to the Original Work is granted* by this License except under this disclaimer.” 
+
+Open Software License 3.0
+
+# limitations of Liability
+
+Similarly almost all licenses try to disclaim all libaility
+
+But …
+
+* What about attempts to attempts to limit the license beyond what is allowed by the local jurisdiction
+* Some have specified damage caps (Watcom $500; RPSL $10; RSCPL $5,000)
+
+# Third Party Beneficiaries
+
+10.1. The obligations imposed by this License are for the *benefit* of the Initial Contributor and any Recipient, and each Recipient acknowledges and agrees that the Initial Contributor and/or *any other Recipient may enforce the terms* and conditions of this License *against any Recipient.*
+
+-ADAPTIVE PUBLIC LICENSE
+
+# Third Party Beneficiaries
+
+THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR REDISTRIBUTIONS OF THE SUBJECT SOFTWARE.
+
+NASA Open Source Agreement v1.3
+
+# Jury Trials
+
+“Each party waives its rights to a jury trial in any resulting litigation.”
+
+Eclipse Public License 1.0
+
+
+# Attribution Requirements
+
+Several Licenses have requirements for displaying Attribution Information
+
+_each time the resulting executable program or a program dependent thereon is launched, a prominent display (e.g., splash screen or banner text) of the Author's
+attribution information, which includes:_
+
+Attribution Assurance License
+
+AAL also requires the license text to be signed by GPG.
+
+# Attribution Requirements
+
+“As a modest attribution to the Initial Contributor, in the hope that its promotional value may help justify the time, money and effort invested in writing the Initial Work, the Initial Contributor may include in Part 2 of the Supplement File a requirement that each time an executable program resulting from the Initial Work or any Subsequent Work, or a program dependent thereon, is launched or run, a prominent display of the Initial Contributor's attribution information must occur (the "ATTRIBUTION INFORMATION").”
+
+Adaptive Public License 1.0
+
+# Notices
+
+Normal requirement to keep notices in place, or even to add them to specific files.
+
+# Legal Notifications
+
+Sometimes you need to describe the limitations on your license being offered (MPL 1.0 derived licenses)
+
+If it is impossible for you to comply with any of the terms of this License …  then you must (i) comply with the terms of this License to the maximum extent possible, (ii) cite the [the reason or law] and (iii) describe the limitations and the code they affect. Such description must be included in the LEGAL file  … . Except to the extent prohibited . . . such description must be sufficiently detailed for a recipient of *ordinary skill at computer programming* to be able to understand it.
+
+- MOTOSOTO OPEN SOURCE LICENSE - Version 0.9.1
+
+# Legal Notifications
+
+If You have knowledge that a party claims an intellectual property right in particular functionality . . . you must include a text file with the source code distribution titled "LEGAL" . . . . If you obtain such knowledge after You make Your Modification available . . . You shall promptly modify the LEGAL file in all copies You make available thereafter and shall take _other steps (such as notifying appropriate mailing lists or newsgroups) reasonably calculated to inform those who received the Covered Code that new knowledge has been obtained._
+
+- The Mozilla Public License (MPL), version 1.0
+
+
+# Super user Rights
+EU Datagrid gives a license to EUDatagrid anytime you publish or distribute modifications not accompanied with a written agreement.
+
+# Super User Rights
+
+*If you are the Current Maintainer* of the Work, you may, *without restriction*, modify the Work, thus creating a Derived Work. You may also *distribute* the Derived Work *without restriction,* including Compiled Works generated from the Derived Work. . . .
+
+*If you are not the Current Maintainer of the Work*, you may distribute a Derived Work *provided* the following conditions are met . . .
+
+LaTeX Project Public License, Version 1.3c
+
+# Creating Derivative Licenses
+* Open Software License prevents you from calling your derivative  license “open source” unless it is approved by OSI
+* Some licenses don't name the license steward and the license steward is in effect the originally copyright holder, who can publish new versions of the license for the program
+
 
 # Conclusions
 
-* Huge variety of terms!
+* Big variety of terms
 * Contains variations on a lot the things transactional lawyers nitpick about
-* There is a good chance your licensing expiriment has been run
+* There is a chance your licensing experiment has been run if read all of the licenses
 * Consider moving from accepting all "open source licenses" to a defined subset
 * Its hard to make generalizations about open source software
