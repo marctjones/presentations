@@ -1,0 +1,211 @@
+% What do courts think the GPL means (so far)?
+% Marc Jones
+% March 
+
+# Introduction
+
+IAAL, but I'm not your lawyer
+This presentation is for informational purposes only and is not legal advice.
+No attorney-client relationship is created by your attendance at this presentation.
+
+# About me
+* Lawyer for [CivicActions](https://www.civicactions.com)
+* I was a systems architect and IT manager for 17 years
+* Other things to talk to me about include camping and traveling to historic locations
+
+# What are we going to talk about
+
+* review several court cases interpreting the free software licenses.
+* focus is on what some the courts concluded the licenses meant (and what questions courts have left open.)
+* also talking about court cases covering related nonfree software licenses
+* CAUTION: none of these cases are the final word. Just what one court said about the license
+* Focused on U.S. Courts
+
+# What I am not going to talk about
+
+* GPL-Violations.org cases brought by Herald Welt in German courts
+* Association pour la Formation Professionnelle des Adultes v EDU 4
+   * EDU 4 violated contract under french civil law for failing to comply with the terms of the GPL
+   * AFFP won on appeal (2009)
+ * Busybox cases brought by the Software Freedom Law Center (2007)
+   * All of the case settled very quickly shortly after filing the complaint
+ * FSF v Cisco Systems (2008)
+   * Settled before Cisco formely responded to FSF's complaint
+
+# Vocabulary Lesson
+
+Dicta
+
+Holding - A court's determination of a matter of law pivotal to its decision; a principle drawn from such a decision.
+
+obiter dictum - A judicial comment made while delivering a judicial opinion, but one that is unnecessary to the decision in the case and therefore not precedential (although it may be considered persuasive).
+
+Black's Law Dictionary, 3rd ed. (1996)
+
+
+# Planetary Motion v Techplosion
+
+Planetary Motion, Inc. v. Techplosion, Inc., 261 F.3d 1188 (11th Cir. 2001)
+
+Darrah developed a email client called "Coolmail".
+Coolmail was distributed under the GNU GPL
+SuSe distributed Coolmail
+
+Darrah never sold Coolmail
+Darrah distributed it widely to a unkown number of "technically skilled UNIX-users"
+
+Distribution of software over the internet is worthy of trademark protection
+The fact that GPL licensed software is commonely distributed without charge is no barrier to trademark rights.
+
+"That the Software had been distributed pursuant to a GNU General Public License does not defeat trademark ownership, nor does this in any way compel a finding that Darrah abandoned his rights in trademark. Appellants misconstrue the function of a GNU General Public License. Software distributed pursuant to such a license is not necessarily ceded to the public domain and the licensor purports to retain ownership rights, which may or may not include rights to a mark." (id. at 1198)
+
+# Wallace v IBM Corp.
+
+Wallace v. IBM Corp., 467 F.3d 1104 (7th Cir. 2006) (Judge Easterbrook)
+
+
+Daniel Wallace wanted to create a operating system to compete with Linux
+Sued for antitrust violation alleging that the GNU GPL was a consiprate to fix the price of the GNU/Linux operating system at $0
+The alleged price fixing made it impossible for him to compete.
+
+Court reasoned that the GPL keeps software free forever. That it will not result in higher prices later, so there is no role for antitrust last. "Software that is not maintained and improved eventually becomes obsolete, and the lack of reward may reduce the resources devoted to maintenance and improvement of Linux and other open-source projects. If that occurs, however, then proprietary software will enter or gain market share. People willingly pay for quality software even when they can get free (but imperfect) substitutes"
+
+"the GPL does not restrain trade. It is a cooperative agreement that facilitates production of new derivative works, and agreements that yield new products that would not arise through unilateral action are lawful. "
+
+
+
+
+# Jacobsen v Katzer
+
+Jacobsen v. Katzer, 535 F.3d 1373 (Fed. Cir. 2008)
+
+Jacobsen managed the open source project, Java Model Railroad Interface
+  * JMRI programmed decoder chips that control model trains
+  * Licensed under the Artistic License
+  * Copyright notices and refered people to look to the license in the COPYING file.
+
+Katzer offered a competing product, Decoder Commander, that also programms decoder chips for model trains
+  * Katzer used a portion of files from the JMRI project in Decoder Commander
+  * Katzer did not follow the terms of the Artistic license. Failed to include:
+    * JMRI Author's name
+    * JMRI copyright notices
+    * JMRI references to the COPYING file
+    * identification of JMRI as the source of the copied files
+    * description of how the files where change
+
+Jacobsen sued and moved for a preliminary injection based on the theory that violating the terms of the Artistic License was copyright infringement.
+
+Trial court denied the motion because case did not sound in copyright, but rather in contract. Court concluded that the only remedies available for violating the Artistic license was for contract claims based on the breech of the agreement.
+
+
+What we learned from this case:
+* One who exceeds the scope of a license to reproduce a copyrighted work likewise is an infringer of the copyright.
+* Artistic license is enforceable based on a theory of copyright infringement
+* Preliminary injunctions are often available as a remedy for violating free software licenses
+
+# Copyright Management Information/ DMCA
+
+District court also ruled that
+Jacobsen had adequently plead a claim for unauthorized removal or alteration copyright management information under the DMCA 17 U.S.C 1202(b).
+
+Copyright management information includes
+* title or other information indentifying the work
+* name/identifying information about the author
+* name/infomration about the copyright holder
+* terms and conditions for use of the work
+
+
+# Versata Software v Ameriprise
+
+Versata Software, Inc. v. Ameriprise Financial, Inc. (1:14-cv-00221)
+District Court, W.D. Texas
+
+Originally filed in Travis Country state court in Texas in 2012
+Claiming the right to terminate the contract as a result of Ameriprises breach and seaking injuctive relief
+Ameriprise countersued for breach of contract, injunctions and for the right to access to all of the source code
+
+
+Removed to Federal District Court on the claim that certian counterclaims were preempted by copyright law. Namely Ameriprise had a copyright license to the software under the GPL.
+Went back to State court
+And then was again removed to Federal Court.
+
+
+Question presented was are all of the breach of contract claims presented by either party pre-empted by copyright law.
+
+Standard
+1) Claim is examined to deremine whether it falls within the subject matter of copyright as defined by Sec. 102.
+2) the cause of action is examined to determine if it protects rights that are equivalent to any of the exclusive rights of a federal copyright.
+
+i.e. Does the cause of action require an extra element beyond what is required to show a copyright infringement claim.
+
+# Holding
+Court held that:
+* GPL's so-called "copyleft" scheme is not entirely distinct from copyright law
+* But the ""viral" component of the GPL is separate and distinct from any copyright obligation.
+  Copyright law imposes no open source obligations
+  Ameriprise has sued based on Versata's breach of an additional obligation: an affirmative promise to make its derivative work open source because it incorporated an open source program into its software. Ameriprise's claim therefore requires an "extra element" in addition to reproduction or distribution: a failure to disclose the source code of the derivatitve software.
+  The presence of an additional contractual promise separate and distinct from any right provided by the copyright law means Ameriprise's claim is not preempted.
+
+
+# Versata Software V Ameriprise: third party beneficiary standing
+
+Interestingly the court then went on to say there was no need for the Federal court to determine if Ameriprise has standing to enforce the GPL as a third-party beneficiary, since that is a arguement for the state court.
+
+#XimpleWare v Vesata (Copyright)
+
+1) Impact of incorporating GPL licensed software into proprietary software
+
+XimpleWare, Corp v. Versata Software, Inc. et al, Docket No. 3:13-cv-05160 (N.D. Cal. Nov 5, 2013)
+
+XimpleWare sued Versata and Ameriprise.
+Sought a Prelimiary injunction.
+Court denied both injuctions.
+Versata was given almost a year to develop and deploy a patch to remove the GPL licensed code from the software deployed at customer sites.
+
+
+2) Distribution
+
+Ximplware claimed that Ameriprise committed copyright infringement by distributing the GPL licensed software with out complying with the conditions of the license
+Ameriprise defend claiming it only distributed to its own finacial advisors.
+Ameriprise maintians that it doesnt matter that the finacial advisors are independent contractors, not regular employees.
+Court found that Ximpleware sufficent plead a claim for copyright infringement by alleging "the majority of Ameriprise financial dvisors are not Ameriprise employees"
+
+
+#XimpleWare v Versata (Patent)
+
+XimpleWare, Inc. v. Versata Software, Inc. et al, Docket No. 5:13-cv-05161 (N.D. Cal. Nov 05, 2013)
+
+
+"The GPL requires, among other things, that:
+(1) any changes made to the code carry notices stating that the files were changed, and the dates of all changes;
+(2) any code created or derived from GPL-protected code must also be licensed under the GPL;
+(3) copyright notices must print or display when the code is run; and
+(4) when distributed, the program must be accompanied by the complete machine-readable source code.
+
+All four conditions must be met, and the GPL requires strict compliance."
+
+1) Direct licensing
+
+"Because an express license is a defense to patent infringement, XimpleWare’s direct
+infringement claims against Versata’s customers turn on whether the customers’ distribution is
+licensed under the GPL. The reason is that the GPL provides that even if the original licensee –
+here, one of the Versata entities – breaches its license for whatever reason, third-party customers of
+that original license retain the right to use XimpleWare’s software so long as the customer does not
+itself breach the license by “distributing” XimpleWare’s software without satisfying an attendant
+conditions."
+
+2) Distribution
+
+Adopts the logic of the copyright case on what it means to distribute
+
+3) Patent License
+
+"the Customer Defendants are free to use XimpleWare software under the GPL. To state a claim for direct infringement by the Customer Defendants XimpleWare must allege distribution in violation of the GPL."
+
+Citing:
+"(“Activities other than copying, distribution and modification
+are not covered by this License; they are outside its scope. The act of running the Program is not
+restricted, and the output from the Program is covered only if its contents constitute a work based
+on the Program (independent of having been made by running the Program). Whether that is true
+depends on what the Program does.”)"
+
